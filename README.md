@@ -55,20 +55,14 @@ Or you can install from source. First make sure to [install Go](https://golang.o
 
 
 ```bash
-$ git clone https://github.com/jaytaylor/rwtxt.git
+go get github.com/jaytaylor/rwtxt/...
 ```
 
-Then you can make it with:
+Then run it!
 
 ```bash
-$ make
-```
-
-And then run it!
-
-```bash
-$ export PATH="${PATH}:${GOPATH}/bin"
-$ rwtxt
+export PATH="${PATH}:${GOPATH}/bin"
+rwtxt
 ```
 
 ## Notice
