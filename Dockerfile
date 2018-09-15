@@ -1,13 +1,13 @@
 # First build step
 FROM golang:1.11-alpine
 
-#WORKDIR /go/src/github.com/schollz/rwtxt
+#WORKDIR /go/src/github.com/jaytaylor/rwtxt
 #COPY . .
 # Install git and make, compile and cleanup
 RUN apk add --no-cache git make g++ \
     && go get -v github.com/jteeuwen/go-bindata/go-bindata \
     && go get -v github.com/tdewolff/minify/... \
-    && git clone https://github.com/schollz/rwtxt.git \
+    && git clone https://github.com/jaytaylor/rwtxt.git \
     && cd rwtxt \
     && make \
     && apk del --purge git make g++ \

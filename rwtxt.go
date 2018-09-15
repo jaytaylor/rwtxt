@@ -11,8 +11,8 @@ import (
 	log "github.com/cihub/seelog"
 	"github.com/gorilla/websocket"
 	"github.com/schollz/documentsimilarity"
-	"github.com/schollz/rwtxt/pkg/db"
-	"github.com/schollz/rwtxt/pkg/utils"
+	"github.com/jaytaylor/rwtxt/pkg/db"
+	"github.com/jaytaylor/rwtxt/pkg/utils"
 )
 
 const DefaultBind = ":8152"

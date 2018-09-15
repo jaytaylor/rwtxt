@@ -5,8 +5,8 @@ import (
 	"fmt"
 
 	log "github.com/cihub/seelog"
-	"github.com/schollz/rwtxt"
-	"github.com/schollz/rwtxt/pkg/db"
+	"github.com/jaytaylor/rwtxt"
+	"github.com/jaytaylor/rwtxt/pkg/db"
 )
 
 var (

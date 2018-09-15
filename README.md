@@ -4,16 +4,16 @@
     src="/static/img/logo.png"
     width="260" border="0" alt="rwtxt">
 <br>
-<a href="https://travis-ci.org/schollz/rwtxt"><img
-src="https://img.shields.io/travis/schollz/rwtxt.svg?style=flat-square"
+<a href="https://travis-ci.org/jaytaylor/rwtxt"><img
+src="https://img.shields.io/travis/jaytaylor/rwtxt.svg?style=flat-square"
 alt="Build Status"></a> <a
-href="https://github.com/schollz/rwtxt/releases/latest"><img
+href="https://github.com/jaytaylor/rwtxt/releases/latest"><img
 src="https://img.shields.io/badge/version-1.1.1-brightgreen.svg?style=flat-square"
 alt="Version"></a> </p>
 
 <p align="center">A cms for absolute minimalists. Try it at <a href="https://rwtxt.com/public">rwtxt.com</a>.</p>
 
-*rwtxt* is an [open-source](https://github.com/schollz/rwtxt) website where you can store any text online for easy sharing and quick recall. In more specific terms, it is a light-weight and fast content management system (CMS) where you write in Markdown with emphasis on reading.
+*rwtxt* is an [open-source](https://github.com/jaytaylor/rwtxt) website where you can store any text online for easy sharing and quick recall. In more specific terms, it is a light-weight and fast content management system (CMS) where you write in Markdown with emphasis on reading.
 
 *rwtxt* builds off [cowyo](https://cowyo.com), a similar app I made previously. In improving with *rwtxt* I aimed to avoid [second-system syndrome](https://en.wikipedia.org/wiki/Second-system_effect): I got rid of features I never used in cowyo (self-destruction, encryption, locking), while integrating a useful new feature not available previously: you can create  *domains*. A *domain* is basically a personalized namespace where you can write private/public posts that are searchable. I personally use *rwtxt* to collect and jot notes for work, personal, coding - each which has its own searchable and indexed domain.
 
@@ -49,13 +49,13 @@ console.log("hello, world");
 
 You can easily install and run *rwtxt* on your own computer.
 
-You can download a binary for the [latest release](https://github.com/schollz/rwtxt/releases/latest).
+You can download a binary for the [latest release](https://github.com/jaytaylor/rwtxt/releases/latest).
 
 Or you can install from source. First make sure to [install Go](https://golang.org/dl/). Then clone the repo:
 
 
 ```bash
-$ git clone https://github.com/schollz/rwtxt.git
+$ git clone https://github.com/jaytaylor/rwtxt.git
 ```
 
 Then you can make it with:

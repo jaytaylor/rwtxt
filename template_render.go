@@ -13,8 +13,8 @@ import (
 	"time"
 
 	log "github.com/cihub/seelog"
-	"github.com/schollz/rwtxt/pkg/db"
-	"github.com/schollz/rwtxt/pkg/utils"
+	"github.com/jaytaylor/rwtxt/pkg/db"
+	"github.com/jaytaylor/rwtxt/pkg/utils"
 )
 
 const introText = "This note is empty. Click to edit it."
